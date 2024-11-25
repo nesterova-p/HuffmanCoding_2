@@ -177,9 +177,7 @@ src/
 │       └── HuffmanNode.java     # Represents nodes in the Huffman tree
 tests/
 ├── pl/edu/pw/ee/
-│   ├── HuffmanEncoderTest.java  # Unit tests for encoder
-│   ├── HuffmanDecoderTest.java  # Unit tests for decoder
-│   └── PriorityQueueTest.java   # Unit tests for priority queue
+│   ├── 
 ```
 
 ---
@@ -193,8 +191,7 @@ tests/
 ## **To Do**
 
 - [ ] Enhance GUI styling.
-- [ ] Add real-time progress updates for large files.
-- [ ] Improve test coverage for edge cases.
+- [ ] Improve test coverage.
 
 ---
 
