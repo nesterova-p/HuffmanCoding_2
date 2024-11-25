@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="AiSD2024ZEx5:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/AiSD2024ZEx5_jar</output-path>
+    <root id="archive" name="AiSD2024ZEx5.jar">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="module-output" name="AiSD2024ZEx5" />
+    </root>
+  </artifact>
+</component>
