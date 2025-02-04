@@ -46,6 +46,8 @@
 6. **Unit Testing:**
    - Includes comprehensive unit tests to validate tree construction, encoding, decoding, and priority queue operations.
 
+![image](https://github.com/user-attachments/assets/0597ae01-2424-409a-a286-5c26bcaf3066)
+
 ---
 
 ## **Usage**
@@ -155,6 +157,8 @@ java -jar huffman-coding.jar compressed.huff output.txt --mode decompress
 
 3. Click "Run" to compress or decompress the file.
 
+![image](https://github.com/user-attachments/assets/fb81a0b4-34cc-41d8-9b77-fe7de0b068c1)
+
 ### **Using the Command Line**
 ```bash
 java -jar huffman-coding.jar input.txt compressed.huff --mode compress
@@ -180,18 +184,23 @@ tests/
 │   ├── 
 ```
 
+### **Tests**  
+- **Almost Full Test Coverage**: The project includes a comprehensive test suite, covering nearly all aspects of Huffman encoding and decoding.  
+- **Ensures correctness of**:  
+  - Huffman tree construction.  
+  - Encoding and decoding processes.  
+  - Priority queue operations.  
+- **Edge cases tested**:  
+  - Empty files.  
+  - Single-character inputs.  
+  - Highly repetitive text.  
+  - Random character distributions.  
+
 ---
 
 ## **Requirements**
 
 - Java 8 or later.
-
----
-
-## **To Do**
-
-- [ ] Enhance GUI styling.
-- [ ] Improve test coverage.
 
 ---
 
